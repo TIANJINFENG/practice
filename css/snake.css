@@ -1,0 +1,48 @@
+body{
+    background:black;
+}
+#background_map{
+    position: absolute;
+    margin: 0px;
+    left: 35%;
+    width: 400px;
+}
+#snack{
+    background: yellow;
+    border-radius: 5px;
+    width: 100%;
+    border:2px solid black;
+}
+
+a:visited {
+    color: #9c9a94;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white ;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white ;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.jump_list:visited {
+    color: white ;
+    background-color: transparent;
+    text-decoration: none;
+}
+.jump_list_button{
+    position: relative;
+    margin: 500px 0px 0px 570px;
+    background: yellow;
+    width:125px;
+    height:48px;
+    letter-spacing:2px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    border-radius: 8px;
+}

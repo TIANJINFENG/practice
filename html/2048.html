@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8"/>
+	<title>2048</title>
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes"/>
+	<link rel = "stylesheet" type = "text/css" href = "../css/2048.css">
+	<script type = "text/javascript" src = "../js/jquery.min.js"></script>
+	<script type = "text/javascript" src = "../js/main2048.js"></script>
+</head>
+<body>
+	<div id ="header">
+		<h1>2048</h1>
+		<a class="new_gamme_button" onclick="newgame()">新游戏</a>
+		<p>分数:<span id = "score">0</span></p>
+	</div>
+	<div id = "grid-container">
+		<div class = "grid" id = "grid-0-0"></div>
+		<div class = "grid" id = "grid-0-1"></div>
+		<div class = "grid" id = "grid-0-2"></div>
+		<div class = "grid" id = "grid-0-3"></div>
+		
+		<div class = "grid" id = "grid-1-0"></div>
+		<div class = "grid" id = "grid-1-1"></div>
+		<div class = "grid" id = "grid-1-2"></div>
+		<div class = "grid" id = "grid-1-3"></div>
+		
+		<div class = "grid" id = "grid-2-0"></div>
+		<div class = "grid" id = "grid-2-1"></div>
+		<div class = "grid" id = "grid-2-2"></div>
+		<div class = "grid" id = "grid-2-3"></div>
+		
+		<div class = "grid" id = "grid-3-0"></div>
+		<div class = "grid" id = "grid-3-1"></div>
+		<div class = "grid" id = "grid-3-2"></div>
+		<div class = "grid" id = "grid-3-3"></div>
+		<div id="success" class = "remind">
+			<div class = "success">恭喜您完成2048</div>
+			<div><a  class="new_gamme_button" onclick="again()">重新开始</a></div>
+		</div>
+		<div id="fail" class = "remind">
+			<div class = "fail">很遗憾您失败了</div>
+			<div><a class="new_gamme_button" onclick="again()">重新开始</a></div>
+		</div>
+	</div>
+	<a class="jump_list " href="learn.html"><Button class="jump_list_button">Go Back</Button></a>
+</body>
+</html>

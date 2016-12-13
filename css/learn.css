@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+}
+#home_navigation{
+    position: relative ;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to bottom, green, blue);
+}
+
+.description:hover {
+    background: linear-gradient(to bottom, green, blue);
+    color: white ;
+}
+.settings:hover{
+    background: linear-gradient(to bottom, green, blue);
+    color: white ;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: #9c9a94;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white ;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white ;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.merger{
+    padding-left:90px;
+    width:78%;
+    float: left;
+}
+.home_button{
+    height:49px;
+    width:110px;
+    font-size:15px;
+    font-weight:800;
+    background: linear-gradient(to bottom, green, blue);
+    color: white ;
+    border:none;
+}
+.settings{
+    height:49px;
+    width:110px;
+    font-size:15px;
+    font-weight:800;
+    background: linear-gradient(to bottom, green, blue) ;
+    color: black;
+    border:none;
+}
+.description{
+    height:49px;
+    width:110px;
+    font-size:15px;
+    font-weight:800;
+    background: linear-gradient(to bottom, green, blue) ;
+    color: black;
+    border:none;
+}
+.cart_button:hover {
+    background: linear-gradient(to bottom, green, blue);
+    color: white ;
+}
+.cart_button{
+    display:inline;
+    height:50px;
+    width:100px;
+    font-size:15px;
+    font-weight:800;
+    background: linear-gradient(to bottom, green, blue);
+    color: #9c9a94;
+    border: none;
+}
+#plus{
+    display: inline ;
+}
+#imgsnake{
+    background-image: url(../img/login/snake1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% 100% ;
+}
+#imgbird{
+    background-image: url(../img/login/Flappybird.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% 100% ;
+}
+#img2048{
+    background-image: url(../img/login/test2048.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100% 100% ;
+}
+#imgWorB{
+    background-image: url(../img/login/white.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 50% 100% ;
+}
+.detail{
+    position: absolute ;
+    top:50px;
+    width:100%;
+    height:100%;
+}
+h1{
+    margin: 20px 0px 20px 30px;
+    font-size: 60px;
+    letter-spacing:2px;
+    font-family: sans-serif;
+}
+.jump_list:visited {
+    color: white ;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.jump_list_button{
+    float: left;
+    margin-left:5%;
+    margin-bottom:5%;
+    letter-spacing:2px;
+    width:40%;
+    height:50%;
+    border: none;
+    border-radius: 8px;
+}

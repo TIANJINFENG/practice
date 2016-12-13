@@ -1,0 +1,104 @@
+html {
+    height:100%;
+}
+body {
+    margin: 0;
+    height:100%;
+}
+.leftBg {
+    position: relative;
+    z-index: 100;
+    height: 600px;
+    float: left;
+    background: linear-gradient(to bottom,green,yellow);
+}
+.rightBg {
+    position: relative;
+    z-index: 101;
+    height: 600px;
+    float: right;
+    background: linear-gradient(to bottom,green,yellow);
+}
+.ground {
+    position: relative;
+    top: 600px;
+    width: 100%;
+    background-color: yellow;
+}
+#background {
+    float: left;
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+.point {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    left: 170px;
+    top: 50px;
+    z-index: 23;
+    text-align: center;
+    font-size: 200%;
+    color: wheat;
+}
+#bird {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 42px;
+    height: 32px;
+    z-index: 21;
+}
+#up_pipe {
+    position: absolute;
+    z-index: 20;
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    left: 400px;
+}
+#down_pipe {
+    position: absolute;
+    z-index: 20;
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    left: 400px;
+    bottom: 0px;
+}
+a:visited {
+    color: #9c9a94;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white ;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: white ;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.jump_list:visited {
+    color: white ;
+    background-color: transparent;
+    text-decoration: none;
+}
+.jump_list_button{
+    margin: 550px 0px 0px 30px;
+    background: black;
+    width:125px;
+    height:48px;
+    letter-spacing:2px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}

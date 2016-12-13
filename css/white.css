@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+.block {
+    font-size: 2px;
+    width: 5%;
+    height: 12.5%;
+}
+
+.black {
+    background: black;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.startText {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#datetime {
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    font-size: 30px;
+    color: red;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-shadow: 2px 2px 5px #111;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+#fail {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    font-weight: 900;
+}
+
+.failDiv {
+    height: 40%;
+    margin: 40% 10%;
+    text-align: center;
+    background: white;
+    width: 80%;
+    border: 5px solid #444;
+    border-radius: 30px;
+}
+
+.failText {
+    margin: 5%;
+    background: #ddddec;
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+#score {
+    font-size: 50px;
+}
+
+.time {
+    padding: 20px
+}
+
+.again {
+    width: 90%;
+    height: 20%;
+    font-size: 24px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
